@@ -2,6 +2,7 @@ package testcode;
 
 public class App {
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        char c = '胡';
+        System.out.println(Character.isLetter(c));
     }
 }
